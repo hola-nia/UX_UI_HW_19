@@ -6,7 +6,16 @@ body {
     margin-top: 50px;
     margin-left: 400px;
     cursor: pointer;
+    
     }
+
+ .eco {
+        transition: transform 0.5s ease;
+      }
+      
+.eco:hover {
+    transform: scale(1.1);
+}
    
 .introduction {
     position: absolute;
